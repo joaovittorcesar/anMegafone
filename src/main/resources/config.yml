@@ -1,0 +1,22 @@
+# Permissões:
+# anmegafone.use -> Permite usar o comando (/megafone)
+# anmegafone.reload -> Permite recarregar o plugin (/anmegafone reload)
+# anmegafone.bypass -> Ignora o tempo de espera.
+# ---------------------------------------------------------------------
+
+# Prefixo padrão
+prefix: "&7[&cAnMegafone&7] "
+
+# Mensagens
+messages:
+  broadcast_prefix: "&6[MegaFone]"
+  no_args: "&cVocê não colocou a mensagem!"
+  no_permission: "&cVocê não possui permissão para executar este comando."
+  mf_usage: "&cUso correto: /mf <mensagem>"
+  megafone_usage: "&cUso correto: /megafone <mensagem>"
+  wait: "&cVocê deve esperar {time} antes de usar este comando novamente!"
+  reload: "&aPlugin AnMegafone recarregado com sucesso!"
+
+# Temporizador para envio de mensagens
+temporizador:
+  timer: "5m" # Tempo padrão é de 5 minutos

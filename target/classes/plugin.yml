@@ -1,0 +1,16 @@
+name: anMegafone
+version: '1.0'
+main: net.angelnoiteiro.anmegafone.AnMegafone
+depend: [anCore]
+website: https://devangelzin.top/
+commands:
+  mf:
+    description: Use o megafone
+    usage: /megafone <mensagem>
+  megafone:
+    description: Use o megafone
+    usage: /megafone <mensagem>
+  anmegafone:
+    description: Use o megafone
+    usage: /anmegafone <mensagem>
+    permission: anmegafone.use
